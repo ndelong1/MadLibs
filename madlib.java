@@ -28,7 +28,7 @@ public class madlib{
         System.out.print("What is your username you would like to use? >> ");
         userName = input.nextLine();
 
-        System.out.print("Input a noun >> ");
+        System.out.print("Input a word to describe time of day >> ");
         nounOne = input.nextLine();
         
         System.out.print("\nInput a past tense verb >> ");
@@ -60,6 +60,8 @@ public class madlib{
 
         System.out.print("\nInput an adjective >> ");
         adjectiveThree = input.nextLine();
+
+        input.close();
 
         System.out.println("The Raven - Edgar Allen Poe & " + userName);
         System.out.println("Once upon a " + nounOne +  " dreary, \nwhile I " + pastTenseVerbOne + ", " + adjectiveOne + " and " + adjectiveTwo + ", \nOver many a quaint and curious volume of forgotten " + nounTwo + "\nWhile I " + pastTenseVerbTwo + ", " + verbOne + ", suddenly there came a " + verbTwo + ",\nAs of some one gently rapping, rapping at my " + nounThree + " door.\n'Tis some visitor,' I muttered, 'tapping at my chamber door—\nOnly " + pronounOne + " and nothing " + adjectiveThree + ".'");
